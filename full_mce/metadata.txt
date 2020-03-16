@@ -1,0 +1,40 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Full MCE for Public Health
+qgisMinimumVersion=2.0
+description=Full Multicriteria evaluation tool for Public Health
+version=1.0
+next_version = 11
+author=Mampionona RASAMIMALALA, Anthonio RAKOTOARISON, Fanjasoa RAKOTOMANANA, Patrice PIOLA
+email= rasamimalala@gmail
+
+about=This plugin help you to make a multicriteria evaluation (MCE). All your input data must be a raster image.</br></br>With this plugin, you can:</br>-reclassify constraints to boolean</br>-normalize factors</br>-get weight of each factors using a pairwise comparison matrix</br>-combine constraints and weighted factors using Weighted Linear Combination (WLC)
+
+tracker=github.com
+repository=github.com
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=http://172.16.0.230:7010/full_mce
+category=Raster
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
